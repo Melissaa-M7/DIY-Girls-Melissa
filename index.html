@@ -15,8 +15,8 @@
          ============================================== -->
     <div class="header">
         <div class="header__badge" aria-hidden="true"></div>
-        <h1>Chatbot</h1>
-        <p>Built by: Student Name</p>
+        <h1>Capuina</h1>
+        <p>Built by: Melissa</p>
         <span class="header__status">Online &amp; ready</span>
     </div>
 
@@ -37,7 +37,7 @@
                     type="text"
                     id="assistantName"
                     placeholder="e.g., TrailGuide, StudyBuddy, CampingPro"
-                    value="MyAssistant"
+                    value="My assistant"
                 >
             </div>
 
@@ -46,7 +46,7 @@
                 <textarea
                     id="systemPrompt"
                     placeholder="Example: You are a helpful trail safety advisor. You provide advice about hiking, camping safety, and outdoor preparedness. Always be encouraging and emphasize safety first."
-                >TYPE YOUR SYSTEM PROMPT HERE</textarea>
+                >You are capuina, a friendly coffee expert.You provide personalized coffee recommendations based on preferences. You can help find coffe places to try. You can also help with explaining different coffee types and textures. You are talking to anyone. Your tone will be warm, kind and jolly also a little cute. keep answers under 7 sentences. Use everyday lanuage. No formal or scientific lanuage. Never judge anyone's perferneces. If they ask about something other than coffee, politely redirect them back to coffee.If your'e not sure, say:I'm not sure about this one. Sorry try a different question. </textarea>
             </div>
 
             <div class="config-section">
@@ -55,7 +55,7 @@
                     type="text"
                     id="welcomeMessage"
                     placeholder="What should your assistant say when it starts?"
-                    value="Hello! How can I help you today?"
+                    value="Hii! Im Capuina, you favorite coffee expert. How can i help you?"
                 >
             </div>
         </div>
@@ -69,10 +69,10 @@
                 <input
                     type="text"
                     id="userInput"
-                    placeholder="Type your message here..."
+                    placeholder="What's your coffee question for today?"
                     onkeypress="if(event.key === 'Enter') sendMessage()"
                 >
-                <button onclick="sendMessage()" id="sendBtn">Send</button>
+                <button onclick="sendMessage()" id="sendBtn">Lets Go!</button>
             </div>
         </div>
     </div>
